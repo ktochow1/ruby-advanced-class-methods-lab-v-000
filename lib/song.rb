@@ -21,7 +21,7 @@ class Song
   new_song = self.new(name)
   @@all << new_song.save
   new_song
-  end    #is this actually correct???
+  end    
 
   def self.new_by_name(name)
     name = self.new(name)
@@ -77,6 +77,7 @@ class Song
     song
   end
   
+
     
   
   def self.destroy_all
